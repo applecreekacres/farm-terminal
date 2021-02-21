@@ -7,6 +7,11 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+colorama = "^0.4.4"
+fuzzyfinder = "^2.1.0"
+prompt-toolkit = "^3.0.16"
+click = "^7.1.2"
+Pygments = "^2.8.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.5"
@@ -14,6 +19,7 @@ rope = "^0.18.0"
 pycodestyle = "^2.6.0"
 pydocstyle = "^5.1.1"
 pylint = "^2.7.0"
+isort = "^5.7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
