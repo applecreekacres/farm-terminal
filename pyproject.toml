@@ -12,6 +12,8 @@ fuzzyfinder = "^2.1.0"
 prompt-toolkit = "^3.0.16"
 click = "^7.1.2"
 Pygments = "^2.8.0"
+farmos-ext = { git="https://github.com/applecreekacres/farmos.py.ext"}
+farmOS = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.5"
