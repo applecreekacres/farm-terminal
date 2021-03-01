@@ -7,8 +7,8 @@ import tkinter as tk
 from datetime import datetime
 from tkinter import filedialog
 
-from farmer.ext.sensor import Sensor
-from farmer.weathercloud import WeatherCloud
+from farmos_ext.sensor import Sensor
+from farm_terminal.weathercloud import WeatherCloud
 
 root = tk.Tk()
 root.withdraw()
