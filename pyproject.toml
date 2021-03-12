@@ -9,7 +9,7 @@ license = "MIT"
 python = "^3.8"
 colorama = "^0.4.4"
 fuzzyfinder = "^2.1.0"
-prompt-toolkit = "^3.0.16"
+prompt-toolkit = "^3.0.17"
 click = "^7.1.2"
 Pygments = "^2.8.1"
 farmos-ext = { git="https://github.com/applecreekacres/farmos.py.ext"}
