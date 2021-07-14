@@ -19,7 +19,7 @@ jobs:
     - uses: actions/setup-python@v2.2.2
       with:
         python-version: 3.7
-    - uses: Gr1N/setup-poetry@v6
+    - uses: Gr1N/setup-poetry@v7
     - run: poetry install
     - name: Pylint
       run: poetry run pylint farm_terminal
