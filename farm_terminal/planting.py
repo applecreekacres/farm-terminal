@@ -106,7 +106,7 @@ def schedule_harvest(transplant_date: datetime, crop: Crop, seed_date: datetime)
             else:
                 harvest_date = get_harvest_date(crop, seed_date)
             if not harvest_date:
-                alert("Maturity data not found. Please provid date.")
+                alert("Maturity data not found. Please provide date.")
                 harvest_date = prompt_date("Harvest Date")
         else:
             harvest_date = prompt_date("Harvest Date")

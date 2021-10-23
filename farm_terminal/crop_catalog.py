@@ -11,9 +11,9 @@ def main():
         for crop in farm.crops:
             report.heading(crop.name, 2)
             # for image in crop.images:
-                # report.image(image.download())
+            #     report.image(image.download())
             # if crop.crop_family:
-                # report.definition("Family", crop.crop_family.name)
+            #     report.definition("Family", crop.crop_family.name)
             report.line(crop.description)
 
 

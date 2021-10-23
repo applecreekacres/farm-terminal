@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 from farmer.ext.sensor import Sensor
 
+
 def main():
     sensor = Sensor()
     record = sensor.get('temperature', datetime(2021, 1, 1, 0, 0, 0), datetime.now(), 0)
