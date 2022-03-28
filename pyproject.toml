@@ -20,7 +20,7 @@ autopep8 = "^1.6.0"
 rope = "^0.23.0"
 pycodestyle = "^2.8.0"
 pydocstyle = "^6.1.1"
-pylint = "^2.13.0"
+pylint = "^2.13.2"
 isort = "^5.10.1"
 
 [build-system]
