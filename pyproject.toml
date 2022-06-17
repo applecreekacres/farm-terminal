@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-colorama = "^0.4.4"
+colorama = "^0.4.5"
 fuzzyfinder = "^2.1.0"
 prompt-toolkit = "^3.0.29"
 click = "^8.1.3"
