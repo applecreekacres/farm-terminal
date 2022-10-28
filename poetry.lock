@@ -16,7 +16,7 @@ wrapt = [
 
 [[package]]
 name = "autopep8"
-version = "1.7.0"
+version = "1.7.1"
 description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
 category = "dev"
 optional = false
@@ -24,7 +24,7 @@ python-versions = "*"
 
 [package.dependencies]
 pycodestyle = ">=2.9.1"
-toml = "*"
+tomli = "*"
 
 [[package]]
 name = "certifi"
@@ -338,14 +338,6 @@ optional = false
 python-versions = "*"
 
 [[package]]
-name = "toml"
-version = "0.10.2"
-description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-
-[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -401,7 +393,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a0012d517ea95219311e60a9a0364ffe32c3aa5178533a7335ee2c63ef8154d3"
+content-hash = "bc8ab722510a9b1bfc6a7b903a343063feb1c0df0a7fabef75f7d310090dbb28"
 
 [metadata.files]
 astroid = [
@@ -409,8 +401,8 @@ astroid = [
     {file = "astroid-2.12.12.tar.gz", hash = "sha256:1c00a14f5a3ed0339d38d2e2e5b74ea2591df5861c0936bb292b84ccf3a78d83"},
 ]
 autopep8 = [
-    {file = "autopep8-1.7.0-py2.py3-none-any.whl", hash = "sha256:6f09e90a2be784317e84dc1add17ebfc7abe3924239957a37e5040e27d812087"},
-    {file = "autopep8-1.7.0.tar.gz", hash = "sha256:ca9b1a83e53a7fad65d731dc7a2a2d50aa48f43850407c59f6a1a306c4201142"},
+    {file = "autopep8-1.7.1-py2.py3-none-any.whl", hash = "sha256:99afd5a60d30c6d426319e15db2ed7833d2da38f7f94a8753a1953509cc78e5d"},
+    {file = "autopep8-1.7.1.tar.gz", hash = "sha256:f0058220e4cc0ef6121996fc8ec1c32f0735e446be23c4e1f692de0bf23174dd"},
 ]
 certifi = [
     {file = "certifi-2020.12.5-py2.py3-none-any.whl", hash = "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"},
@@ -534,10 +526,6 @@ rope = [
 snowballstemmer = [
     {file = "snowballstemmer-2.1.0-py2.py3-none-any.whl", hash = "sha256:b51b447bea85f9968c13b650126a888aabd4cb4463fca868ec596826325dedc2"},
     {file = "snowballstemmer-2.1.0.tar.gz", hash = "sha256:e997baa4f2e9139951b6f4c631bad912dfd3c792467e2f03d7239464af90e914"},
-]
-toml = [
-    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
-    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
 ]
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
