@@ -16,7 +16,7 @@ wrapt = [
 
 [[package]]
 name = "autopep8"
-version = "1.7.1"
+version = "2.0.0"
 description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
 category = "dev"
 optional = false
@@ -393,7 +393,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bc8ab722510a9b1bfc6a7b903a343063feb1c0df0a7fabef75f7d310090dbb28"
+content-hash = "b45f4c4eb267b4a8b7ffef035c8297c0117be1ae9fb48970f57a8df0b31075a4"
 
 [metadata.files]
 astroid = [
@@ -401,8 +401,8 @@ astroid = [
     {file = "astroid-2.12.12.tar.gz", hash = "sha256:1c00a14f5a3ed0339d38d2e2e5b74ea2591df5861c0936bb292b84ccf3a78d83"},
 ]
 autopep8 = [
-    {file = "autopep8-1.7.1-py2.py3-none-any.whl", hash = "sha256:99afd5a60d30c6d426319e15db2ed7833d2da38f7f94a8753a1953509cc78e5d"},
-    {file = "autopep8-1.7.1.tar.gz", hash = "sha256:f0058220e4cc0ef6121996fc8ec1c32f0735e446be23c4e1f692de0bf23174dd"},
+    {file = "autopep8-2.0.0-py2.py3-none-any.whl", hash = "sha256:ad924b42c2e27a1ac58e432166cc4588f5b80747de02d0d35b1ecbd3e7d57207"},
+    {file = "autopep8-2.0.0.tar.gz", hash = "sha256:8b1659c7f003e693199f52caffdc06585bb0716900bbc6a7442fd931d658c077"},
 ]
 certifi = [
     {file = "certifi-2020.12.5-py2.py3-none-any.whl", hash = "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"},
