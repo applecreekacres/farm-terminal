@@ -318,7 +318,7 @@ rsa = ["oauthlib[signedtoken] (>=3.0.0)"]
 
 [[package]]
 name = "rope"
-version = "1.5.0"
+version = "1.5.1"
 description = "a python refactoring library..."
 category = "dev"
 optional = false
@@ -387,7 +387,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.11"
-content-hash = "0af5dc02c3dd69138ec403a7d8aa5317861f61e99e7c3e201e2321c4ad5cf3ad"
+content-hash = "b3c25ef3ad5c25ca7c15a0e6dc625b2a89aa80b0616bd302ed91708783366799"
 
 [metadata.files]
 appdirs = [
@@ -518,8 +518,8 @@ requests-oauthlib = [
     {file = "requests_oauthlib-1.3.0-py2.py3-none-any.whl", hash = "sha256:7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d"},
 ]
 rope = [
-    {file = "rope-1.5.0-py3-none-any.whl", hash = "sha256:32a19332df0e40c14092ae35226c3d1f0c15ee2462ca2ce4b9936b8fd45f100d"},
-    {file = "rope-1.5.0.tar.gz", hash = "sha256:45744d125f7db569b118ed487f08ab72f67fbef0b8441d02df2b756121f35942"},
+    {file = "rope-1.5.1-py3-none-any.whl", hash = "sha256:d0514b3cddb1a9e103a040756fb53674828d73df70282b7d7d783a220b0354d8"},
+    {file = "rope-1.5.1.tar.gz", hash = "sha256:9761758c222df9466f08232bc046d182960ffa881c1c53bca9fafff210e8da7c"},
 ]
 snowballstemmer = [
     {file = "snowballstemmer-2.1.0-py2.py3-none-any.whl", hash = "sha256:b51b447bea85f9968c13b650126a888aabd4cb4463fca868ec596826325dedc2"},
