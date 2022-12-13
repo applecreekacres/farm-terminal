@@ -21,7 +21,7 @@ rope = "^1.5.1"
 pycodestyle = "^2.10.0"
 pydocstyle = "^6.1.1"
 pylint = "^2.15.8"
-isort = "^5.10.1"
+isort = "^5.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
