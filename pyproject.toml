@@ -16,7 +16,7 @@ farmos-ext = { git="https://github.com/applecreekacres/farmos.py.ext"}
 farmOS = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
-autopep8 = "^2.0.0"
+autopep8 = "^2.0.1"
 rope = "^1.5.1"
 pycodestyle = "^2.10.0"
 pydocstyle = "^6.1.1"
