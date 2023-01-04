@@ -19,7 +19,7 @@ farmOS = "^0.2.0"
 autopep8 = "^2.0.1"
 rope = "^1.5.1"
 pycodestyle = "^2.10.0"
-pydocstyle = "^6.2.1"
+pydocstyle = "^6.2.2"
 pylint = "^2.15.8"
 isort = "^5.11.4"
 
