@@ -10,7 +10,7 @@ python = "^3.8"
 colorama = "^0.4.6"
 fuzzyfinder = "^2.1.0"
 prompt-toolkit = "^3.0.39"
-click = "^8.1.6"
+click = "^8.1.7"
 Pygments = "^2.16.1"
 farmos-ext = { git="https://github.com/applecreekacres/farmos.py.ext"}
 farmOS = "^0.2.0"
