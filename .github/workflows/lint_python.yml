@@ -12,7 +12,7 @@ jobs:
       - run: codespell
       - run: flake8 . --count --max-complexity=10 --max-line-length=120 --show-source --statistics
       - run: isort --check-only --profile black . || true
-      - uses: Gr1N/setup-poetry@v8
+      - uses: Gr1N/setup-poetry@v9
       - run: poetry install
       - run: mypy --install-types --non-interactive . || true
       - run: pytest . || true
