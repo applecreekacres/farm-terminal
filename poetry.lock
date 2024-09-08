@@ -137,14 +137,17 @@ resolved_reference = "91db8a6d5532661650869d34c2ff94e1fed02f02"
 
 [[package]]
 name = "fuzzyfinder"
-version = "2.1.0"
+version = "2.2.0"
 description = "Fuzzy Finder implemented in Python."
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 files = [
-    {file = "fuzzyfinder-2.1.0-py2.py3-none-any.whl", hash = "sha256:aa8223e31bd12fefd3f94c3c46c60b64692594efaa05f5d93e24353e57d57572"},
-    {file = "fuzzyfinder-2.1.0.tar.gz", hash = "sha256:c56d86f110866becad6690c7518f7036c20831c0f82fc87eba8fdb943132f04b"},
+    {file = "fuzzyfinder-2.2.0-py3-none-any.whl", hash = "sha256:1c60e5225bf435646e87eec3ef3d5bd094c5d5a4e4d069d0a4a07d515e990035"},
+    {file = "fuzzyfinder-2.2.0.tar.gz", hash = "sha256:b7699fca41230241c5312dff624029a10e40cc7f695e44290b8f2e8e070c4bb4"},
 ]
+
+[package.extras]
+dev = ["coverage (>=7.2.7)", "pdbpp (>=0.10.3)", "pytest (>=7.4.4)", "pytest-cov (>=4.1.0)"]
 
 [[package]]
 name = "idna"
